@@ -1,0 +1,82 @@
+.center__contact {
+	position: relative;
+	height: 70%;
+	min-height: 400px;
+	display: flex;
+	align-items: center;
+	.form-group {
+		letter-spacing: 2px;
+		color: #000;
+		display: block;
+		margin-bottom: 20px;
+		font-family: "Open Sans" sans-serif;
+		font-weight: 400;
+		&:nth-child(1) {
+			animation-delay: 2s;
+		}
+		&:nth-child(2) {
+			animation-delay: 3s;
+		}
+		.color_element {
+			color: #ff5a5f;
+			font-size: 18px;
+		}
+		input {
+			display: block;
+			width: 100%;
+			border: 1px solid #bbb;
+			margin-top: 5px;
+			line-height: 40px;
+			text-indent: 10px;
+			font-size: 12px;
+			letter-spacing: 2px;
+			outline: none;
+			font-family: "Open Sans" sans-serif;
+			font-weight: 400;
+			color: #67bc5c;
+			&:focus {
+				box-shadow: #67bc5c 0 0 0 1px;
+			}
+		}
+		textarea {
+			display: block;
+			width: 100%;
+			border: 1px solid #bbb;
+			margin-top: 5px;
+			line-height: 40px;
+			text-indent: 10px;
+			font-size: 12px;
+			letter-spacing: 2px;
+			outline: none;
+			font-family: "Open Sans" sans-serif;
+			font-weight: 400;
+			color: #67bc5c;
+			&:focus {
+				box-shadow: #67bc5c 0 0 0 1px;
+			}
+		}
+	}
+	.button_contact {
+		padding: 10px 20px;
+		background-color: #ff5a5f;
+		border: 1px solid #ff5a5f;
+		color: #fff;
+		float: right;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-family: "Open Sans" sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		text-decoration: none;
+		border-radius: 3px;
+		animation-delay: 5s;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		&:hover {
+			border-color: #67bc5c;
+			background: none;
+			color: #67bc5c;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.center__text {
+	position: relative;
+	height: 70%;
+	min-height: 300px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	.hello__user {
+		font-family: "Open Sans" sans-serif;
+		font-style: normal;
+		font-size: 48px;
+		font-weight: 400;
+		letter-spacing: 3px;
+	}
+	.my__skills {
+		position: relative;
+		display: block;
+		animation-delay: 5.5s;
+		ul {
+			position: relative;
+			padding-top: 30px;
+			.my__skills-item {
+				display: inline-block;
+				margin-left: 15px;
+				font-family: "Open Sans" sans-serif;
+				font-weight: 300;
+				font-size: 14px;
+				letter-spacing: 2px;
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+body {
+	height: 100vh;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #ff5a5f;
+	box-shadow: #ff5a5f 0 0 0 1px;
+	border-color: #ff5a5f;
+}
+.wrapper {
+	position: relative;
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	height: 100%
+}

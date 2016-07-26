@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home Page</title>
+	<link rel="stylesheet" href="stylesheets/screen.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="row">
+					<nav class="nav">
+						<ul>
+							<li><a href="index.html" class="link home_page wow animated fadeInDown">Главная</a></li>
+							<li><a href="portfolio.html" class="link portfolio wow animated fadeInDown">Портфолио</a></li>
+							<li><a href="contact.html" class="link contact wow animated fadeInDown">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<div class="center__text">
+			<div class="container">
+				<div class="row">
+					<div class="hello__user"></div>
+
+					<span class="my__skills wow animated fadeInDown">
+						<ul>
+							<li class="my__skills-item">html</li>
+							<li class="my__skills-item">css</li>
+							<li class="my__skills-item">sass</li>
+							<li class="my__skills-item">jade</li>
+							<li class="my__skills-item">gulp</li>
+							<li class="my__skills-item">jquery</li>
+							<li class="my__skills-item">javascript</li>
+							<li class="my__skills-item">animated</li>
+							<li class="my__skills-item">git</li>
+						</ul>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="social  wow animated fadeInDown">
+						<i class="fa fa-vk social__icon" aria-hidden="true"></i>
+						<i class="fa fa-instagram social__icon" aria-hidden="true"></i>
+						<i class="fa fa-git-square social__icon" aria-hidden="true"></i>
+						<i class="fa fa-linkedin social__icon" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/jquery/jquery-1.11.2.min.js"></script>
+	<script src="https://use.fontawesome.com/87f211dfea.js"></script>
+	<!-- http://www.mattboldt.com/demos/typed-js -->
+	<script src="libs/typed/js/typed.js"></script>
+	<script>
+		$(".hello__user").typed({
+			strings: ["Привет. Меня зовут Алекс.<br>Я Front-end разработчик."],
+			typeSpeed: 50
+		});	
+	</script>
+
+	<script src="js/common.js"></script>
+</body>
+</html>

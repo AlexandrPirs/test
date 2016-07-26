@@ -1,0 +1,45 @@
+header {
+	position: relative;
+	width: 100%;
+	min-height: 100px;
+	height: 15%;
+	.nav {
+		position: relative;
+		ul {
+			position: relative;
+			text-align: center;
+			li {
+				display: inline-block;
+				margin-left: 50px;
+				line-height: 100px;
+				&:first-child {
+					margin-left: 0;
+				}
+				.link {
+					font-size: 14px;
+					font-weight: normal;
+					font-family: "Open Sans" sans-serif;
+					font-weight: 400;
+					color: #000;
+					text-decoration: none;
+					letter-spacing: 2px;
+					-webkit-transition: all 0.5s ease;
+					-moz-transition: all 0.5s ease;
+					-o-transition: all 0.5s ease;
+					&:hover {
+						color: #ff5a5f;
+					}
+				}
+				.home_page {
+					animation-delay: 2s;
+				}
+				.portfolio {
+					animation-delay: 3s;
+				}
+				.contact {
+					animation-delay: 4s;
+				}
+			}
+		}
+	}
+}
